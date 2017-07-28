@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.design.activity.WelcomeActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll_welcome_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center_horizontal">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start_register"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="25dp"
+        android:text="注册"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_register"
+        android:layout_above="@+id/btn_start_login"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_start_login"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:text="登录"
+        android:textColor="#d54f3b"
+        android:textSize="18sp"
+        android:background="@drawable/shape_login"
+        android:layout_marginBottom="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/ll_welcome_point"
+        android:visibility="gone"/>
+
+</RelativeLayout>

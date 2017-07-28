@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    tools:context="com.example.asus.design.activity.ProductionActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_content_rlyt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="#ffffff">
+
+        <!--左边按钮-->
+        <Button
+            android:id="@+id/btn_back_production"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_back_gray"/>
+
+        <Button
+            android:id="@+id/btn_like_gray"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="200dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_like_gray"/>
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="240dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_share"/>
+
+        <!--右边按钮-->
+        <Button
+            android:id="@+id/btn_collect"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_collect"
+            android:textSize="15sp"
+            android:text="收藏"
+            android:textColor="#fff"/>
+
+
+    </RelativeLayout>
+
+    <!--标题栏底部微阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#AAAAAA" />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/item_two"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="简单大方的设计，凸显大气的感觉。"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:text="from  家居设计"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:text="by 王小宅宅"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_comment"
+            android:layout_width="330dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_search"
+            android:textSize="15sp"
+            android:text="添加评论..."
+            android:textColor="#bcbcbc"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

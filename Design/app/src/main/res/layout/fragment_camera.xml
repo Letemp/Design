@@ -1,0 +1,246 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    tools:context="com.example.asus.design.fragment.CameraFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/ll_camera_first_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size"
+                android:text="人物摄影" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_camera_first_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="风景摄影"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_camera_first_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_centerVertical="true">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size"
+                android:text="商业摄影" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/ll_camera_second_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size"
+                android:text="艺术摄影" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_camera_second_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="食物摄影"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_camera_second_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_centerVertical="true">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size"
+                android:text="动物摄影" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/ll_camera_third_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size"
+                android:text="微距摄影" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_camera_third_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="纪实摄影"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_camera_third_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_centerVertical="true">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera_9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/EditTextWord"
+                android:textSize="@dimen/left_tv_text_size"
+                android:text="生活摄影" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

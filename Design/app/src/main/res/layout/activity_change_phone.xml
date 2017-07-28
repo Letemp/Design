@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.asus.design.utils.CustomToolBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:left_btn_visible="true"
+    app:title_visible="true"
+    app:title_text="修改手机号"
+    android:id="@+id/toolbar"
+    tools:context="com.example.asus.design.activity.ChangePhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号码"
+                android:textSize="@dimen/setting_tv_text_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tv_realname" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="40dp"
+                android:background="#F3F3F3"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:hint="请输入您的手机号码"
+                android:layout_marginLeft="15dp"
+                android:textSize="@dimen/setting_tv_text_size"
+                android:background="@null"
+                android:id="@+id/editText"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#F3F3F3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:background="@null"
+                android:hint="请输入验证码"
+                android:layout_marginLeft="15dp"
+                android:textSize="@dimen/setting_tv_text_size"
+                android:layout_gravity="center"
+                android:id="@+id/editText2" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="40dp"
+                android:background="#F3F3F3"
+                android:layout_marginLeft="70dp"
+                android:layout_gravity="center_vertical"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_huoquyanzhengma"
+                android:text="获取验证码"
+                android:textColor="#d54f3b"
+                android:id="@+id/button" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#F3F3F3"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="280dp"
+        android:layout_height="38dp"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/setting_tv_text_size"
+        android:text="立即修改"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/shape_register"
+        android:layout_gravity="center_horizontal" />
+
+</com.example.asus.design.utils.CustomToolBar>

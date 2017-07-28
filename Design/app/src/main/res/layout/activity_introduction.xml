@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.asus.design.utils.CustomToolBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:right_tv_text="确定"
+    app:left_btn_visible="true"
+    app:right_tv_visible="true"
+    app:title_visible="true"
+    app:title_text="个人简介"
+    android:id="@+id/toolbar"
+    tools:context="com.example.asus.design.activity.IntroductionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f6f6f6">
+
+        <EditText
+            android:id="@+id/et_introduction"
+            android:layout_width="340dp"
+            android:layout_height="200dp"
+            android:background="#ffffff"
+            android:textColor="@color/EditTextWord"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/setting_tv_text_size"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</com.example.asus.design.utils.CustomToolBar>

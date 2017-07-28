@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/bg_color"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context="com.example.asus.design.activity.SearchActivity">
+
+    <Button
+        android:id="@+id/btn_back_search"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_back_gray"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="搜索感兴趣的内容"
+        android:textSize="16sp
+        "
+        android:background="@drawable/shape_search"/>
+
+
+    <ImageView
+        android:id="@+id/iv_search_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_search"/>
+
+
+</RelativeLayout>
